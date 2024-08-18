@@ -17,8 +17,8 @@ South Latitude: 30.314773
 East Longitude: 114.629974  
 West Longitude: 113.935089  
 
-Time Period: 2017 - 2022.  
-![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png) 
+**Time Period**: 2017 - 2022.  
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png" alt="map" width="400"/>
 
 ## Model Architecture
 
