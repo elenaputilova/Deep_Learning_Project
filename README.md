@@ -18,6 +18,7 @@ East Longitude: 114.629974
 West Longitude: 113.935089  
 
 Time Period: 2017 - 2022.  
+![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png) 
 
 ## Model Architecture
 
