@@ -43,6 +43,8 @@ The training and validation loss converged to low values by epoch 51, suggesting
 
 ## Model Performance
 
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/performance.png" alt="map" width="400"/>
+
 Accuracy: 0.9626  
 Precision: 0.9314  
 Recall: 0.9068  
