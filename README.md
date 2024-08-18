@@ -18,7 +18,7 @@ East Longitude: 114.629974
 West Longitude: 113.935089  
 
 **Time Period**: 2017 - 2022.  
-<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png" alt="map" width="400"/>
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png" alt="map" width="600"/>
 
 ## Model Architecture
 
@@ -43,19 +43,19 @@ The training and validation loss converged to low values by epoch 51, suggesting
 
 ## Model Performance
 
-<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/performance.png" alt="map" />
-
 Accuracy: 0.9626  
 Precision: 0.9314  
 Recall: 0.9068  
 F1 Score: 0.9189  
 Total Proportion of Green Space Areas in Labeled Samples: 23,55%
 
-## Outcome
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/performance.png" alt="map" />
 
-![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/change.png) 
+## Outcome
 
 To empirically evaluate the change in green space in Wuhan, we make descriptive comparisons of green space coverage over time using predicted land use labels from our model.  
 We take 2017 as our base year, which coincides with the introduction of the Modernization, Internationalization, Greenization Plan. For comparison, we use imagery from 2022, roughly the time period our labels correspond to. After predicting labels on the satellite imagery, we take a simple difference of the labels and map “red” to a decrease in the probability of being greenspace and “blue” to an increase.   
 From the model results, we can see that, strikingly, greenspace is predicted to have shrunk considerably over the five-year period, particularly north of the Yangtze river. In the south, we see that the reduction in greenspace is less pronounced, though the greenspace around the southern lakes in the city has decreased slightly.   
+
+![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/change.png) 
 
