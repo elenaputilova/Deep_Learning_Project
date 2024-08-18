@@ -9,6 +9,7 @@ The primary objective of this project is to identify green areas and land use ch
 
 Satellite Imagery: ESA’s Sentinel-2 mission.  
 Labels: OpenStreetMap (used to train the model).  
+
 Area of Interest:  Wuhan, China.  
 Bounding Box Coordinates:  
 North Latitude: 30.770277  
@@ -16,7 +17,7 @@ South Latitude: 30.314773
 East Longitude: 114.629974  
 West Longitude: 113.935089  
 
-Time Period: May to August of 2022.  
+Time Period: 2017 - 2022.  
 
 ## Model Architecture
 
