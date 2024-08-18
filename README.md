@@ -30,6 +30,7 @@ This U-Net model is well-suited for binary image segmentation tasks, classifying
 
 Total Layers: 25  
 Total Parameters: 1,862,849  
+![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/parameters.png) 
 
 ## Hyperparameters
 
@@ -39,6 +40,8 @@ The training and validation loss converged to low values by epoch 51, suggesting
 Learning Rate: 0.001 (controls the step size at each iteration while moving toward a minimum of the loss function).  
 Regularization Parameter: 0.0001 (adds a penalty to the loss function proportional to the magnitude of the weights, helping to prevent overfitting).  
 
+![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/train_loss.png) 
+
 ## Model Performance
 
 Accuracy: 0.9626  
@@ -46,3 +49,5 @@ Precision: 0.9314
 Recall: 0.9068  
 F1 Score: 0.9189  
 Total Proportion of Green Space Areas in Labeled Samples: 23,55%
+
+![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/change.png) 
