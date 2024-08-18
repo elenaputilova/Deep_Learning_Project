@@ -18,7 +18,7 @@ East Longitude: 114.629974
 West Longitude: 113.935089  
 
 **Time Period**: 2017 - 2022.  
-<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png" alt="map" width="400"/>
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/data.png" alt="map" width="600"/>
 
 ## Model Architecture
 
@@ -39,7 +39,7 @@ The training and validation loss converged to low values by epoch 51, suggesting
 **Learning Rate**: 0.001 (controls the step size at each iteration while moving toward a minimum of the loss function).  
 **Regularization Parameter**: 0.0001 (adds a penalty to the loss function proportional to the magnitude of the weights, helping to prevent overfitting).  
 
-![map](https://github.com/elenaputilova/deep_learning_project/blob/main/images/train_loss.png) 
+<img src="https://github.com/elenaputilova/deep_learning_project/blob/main/images/train_loss.png" alt="map" width="400"/>
 
 ## Model Performance
 
